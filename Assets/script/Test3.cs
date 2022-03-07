@@ -22,7 +22,7 @@ using UnityEngine;
         }
         public  void   MagicAttack(int a)
         { 
-            if (this.mp>5)
+            if (this.mp>=5)
             {
              this.mp-=a;
              Debug.Log("魔法攻撃をした。残りMPは"+this.mp);

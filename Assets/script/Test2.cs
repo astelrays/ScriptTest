@@ -7,18 +7,12 @@ public class Test2 : MonoBehaviour
 {
     
     // Start is called before the first frame update
-    void Start()
+        void Start()
     {
-         int[] array=new int[5];
-        array[0]=2;
-        array[1]=20;
-        array[2]=23;
-        array[3]=30;
-        array[4]=33;
-
+          int []array={50,30,20,10,60};
         for (int i=4;i>=0;i--)
         {
-            Debug.Log(array[i]);
+         Debug.Log(array[i]);
         }
         
     }
